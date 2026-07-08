@@ -1,16 +1,227 @@
-# React + Vite
+# 🚖 Ajay Taxi Services
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Full Stack Taxi Booking and Tourism Website developed using React.js, Node.js, Express.js, and MySQL. The platform provides vehicle information, pricing details, tour packages, customer reviews, contact options, and booking functionality for travelers across Bengaluru and India.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌟 Features
 
-## React Compiler
+### 🏠 Home Page
+- Professional landing page with attractive vehicle showcase
+- Alternating image and content layout
+- Vehicle features and descriptions
+- Popular tourist destinations section
+- Responsive design with modern animations
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🚗 Vehicle Pricing
+- Categorized vehicle pricing
+- Sedan, SUV, Jeep, Traveller, and Bus services
+- Seating capacity details
+- Pricing information for different vehicle types
 
-## Expanding the ESLint configuration
+### 🚘 Fleet Management
+- Display of available vehicles
+- Vehicle specifications and seating details
+- Dedicated fleet showcase page
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🗺️ Tour Packages
+- Popular destinations including:
+  - Mysore
+  - Coorg
+  - Ooty
+  - Chikmagalur
+  - Goa
+  - Kerala
+- Tour duration and package pricing
+
+### 📞 Contact Module
+- Customer inquiry form
+- Contact information section
+- Interactive user interface
+
+### 💬 WhatsApp Integration
+- Direct WhatsApp contact button
+- Easy communication with customers
+
+### 📋 Booking Popup
+- Vehicle booking modal
+- Tour package booking modal
+- User-friendly reservation process
+
+### ⭐ Customer Reviews
+- Dedicated customer feedback section
+- Testimonial display
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- React Router DOM
+- Axios
+
+### Backend
+- Node.js
+- Express.js
+
+### Database
+- MySQL
+
+### Version Control
+- Git
+- GitHub
+
+### Development Tools
+- Visual Studio Code
+- MySQL Workbench
+- Vite
+
+---
+
+## 📂 Project Structure
+
+```text
+ajay-taxi-services/
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── assets/
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   │
+│   ├── public/
+│   └── package.json
+│
+├── backend/
+│   ├── server.js
+│   ├── package.json
+│   └── database/
+│
+├── README.md
+└── .gitignore
+```
+
+---
+
+## 🚀 Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/yourusername/ajay-taxi-services.git
+```
+
+### Navigate to Project
+
+```bash
+cd ajay-taxi-services
+```
+
+---
+
+## Frontend Setup
+
+```bash
+cd frontend
+
+npm install
+
+npm run dev
+```
+
+Frontend runs on:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## Backend Setup
+
+```bash
+cd backend
+
+npm install
+
+node server.js
+```
+
+Backend runs on:
+
+```text
+http://localhost:5000
+```
+
+---
+
+## Database Setup
+
+Create MySQL database:
+
+```sql
+CREATE DATABASE ajaytaxi;
+```
+
+Import required tables:
+
+- vehicle_pricing
+- tour_packages
+- bookings
+
+Update MySQL credentials in:
+
+```javascript
+backend/server.js
+```
+
+---
+
+## Future Enhancements
+
+- User Authentication
+- Online Payment Gateway Integration
+- Google Maps Integration
+- Admin Dashboard
+- Email Notifications
+- Real-Time Booking Management
+- Driver Management System
+- Booking History Tracking
+
+---
+
+## Learning Outcomes
+
+This project helped in gaining practical experience in:
+
+- Full Stack Web Development
+- REST API Development
+- React Component Architecture
+- MySQL Database Integration
+- Responsive Web Design
+- Git & GitHub Version Control
+- Frontend and Backend Communication
+
+---
+
+## Author
+
+**Ajay Bandike**
+
+Master of Computer Applications (MCA)
+
+GitHub: https://github.com/Ajay-Bandike
+
+LinkedIn: www.linkedin.com/in/bandike-ajay-b8170824a
+
+---
+
+## License
+
+This project is developed for educational and portfolio purposes.
